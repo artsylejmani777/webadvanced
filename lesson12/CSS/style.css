@@ -1,0 +1,53 @@
+h1 {
+    color:rgba(129, 33, 33, 0.336);
+    letter-spacing: 20px;
+    word-spacing: 20px;
+}
+
+#paragraph{
+     writing-mode: sideways-lr;
+     text-indent: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-decoration: overline;
+}
+
+h3{
+    text-decoration: line-through;
+}
+
+h4{
+    text-decoration: underline;
+}
+
+.myElement{
+    color: blue !important;
+}
+
+#normalText{
+    font-style: normal;
+    font-weight: normal;
+}
+
+#italicText{
+    font-style: italic;
+}
+
+#obliqueText{
+    font-style: oblique;
+}
+
+a:hover{
+    color: yellow
+}
+
+a:visited{
+    color: lightblue
+}
+
+a:active{
+    color: violet
+}
