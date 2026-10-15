@@ -1,0 +1,45 @@
+ul{
+    list-style-type: circle;
+       /*list-style-image: url(../images/minus.jpg);*/
+    padding: 0;
+    margin: 30px;
+    border: 2px solid grey;
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid brown;
+}
+
+ol{
+    background-color: rgb(210, 181, 218);
+    border: 2px solid rgb(26, 110, 143);
+    list-style-type: lower-latin;
+}
+
+table{
+    border-collapse:collapse ;
+}
+
+th,td{
+    border: 1px solid lightgreen;
+    padding: 15px;
+}
+ tbody tr:nth-child(odd){
+    background-color: rgb(171, 153, 255);
+ }
+
+tbody tr:nth-child(even){
+    background-color:rgb(223, 255, 79);
+ }
+
+ thead{
+    background-color: lightslategrey;
+ }
+
+ div{
+    overflow: scroll;
+    background-color: #f27979;
+    width: 200px;
+    height: 200px;
+ }
