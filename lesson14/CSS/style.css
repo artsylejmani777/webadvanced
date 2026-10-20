@@ -1,0 +1,62 @@
+article p{
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px;
+}
+
+article > p{
+    background: red;
+}
+
+article ~ p{
+    background: peru;
+    padding: 20px;
+    color:aliceblue
+}
+
+article + p{
+    background-color: aqua;
+}
+
+p:hover{
+    background: grey;
+}
+
+p:first-child{
+    background-color: red;
+}
+
+input:in-range{
+    background: pink;
+}
+
+input:out-of-range{
+    background-color: yellowgreen;
+}
+
+input:required{
+    background: lightskyblue;
+}
+
+
+input:focus{
+    background-color: lemonchiffon
+}
+
+form{
+    margin-top: 20px;
+}
+
+span:first-of-type{
+    padding: 20px;
+    background-color: black;
+    color:whitesmoke
+}
+
+h1:after{
+    content: "ALIENWARE";
+}
+
+p::first-line{
+    background-color: blanchedalmond;
+}
