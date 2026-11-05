@@ -18,3 +18,38 @@ div.desc{
     padding: 15px;
     text-align: center;
 }
+
+a[href="https://shkolladigjitale.com"]{
+    color: blue;
+    text-decoration: none;
+}
+
+p[class*="Ds"]{
+    color: #751111;
+    background-color: blue;
+    padding: 20px;
+}
+
+div[id~="ds"]{
+    background-color: rgb(36, 2, 56);
+    padding: 20px;
+    color: whitesmoke;
+}
+
+img[title^="blue"]{
+    border: 2px solid blue;
+}
+
+h1[class|=heading]{
+    background-color: aquamarine;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+input[placeholder$="name"]{
+    border: 2px solid red;
+}
+
+input[readonly]{
+    border: 2px solid grey;
+}
