@@ -1,0 +1,41 @@
+:root{
+    --primary-color:#06062A;
+    --secondary-color:#FFF;
+    --padding: 20px;
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+#example-one{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius:10px;
+    background-color: #bada55;
+}
+
+#example-two{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius:10px;
+    border: 2px solid #270606;
+}
+
+#example-three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius:20px;
+    background: url(https://img.goodfon.com/wallpaper/big/d/ba/google-inspired-material-design-multicolor-tekstura-linii.webp);
+}
